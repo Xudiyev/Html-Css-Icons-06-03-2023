@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+.container{
+    max-width: 1000px;
+    margin: 100px auto;
+    
+  
+
+}
+
+.social ul li{
+    display: inline;
+    margin: 0 10px;
+
+    
+}
+
+.social ul li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    background-color:#ffffff;
+    position: relative;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.social ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.social ul li a:hover i{
+    color: brown;
+    
+}
